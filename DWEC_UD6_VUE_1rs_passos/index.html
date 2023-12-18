@@ -12,6 +12,8 @@
         <link rel="prev" href="../DWEC_UD5_prac_ajax/">
       
       
+        <link rel="next" href="../DWEC_UD6_vue_databinding/">
+      
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
@@ -1675,6 +1677,57 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#us-de-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ús de components
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-i-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      data i methods
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="data i methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data" class="md-nav__link">
+    <span class="md-ellipsis">
+      data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      methods
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#propietats-computades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Propietats computades
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1684,9 +1737,114 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DWEC_UD6_vue_databinding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data binding
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DWEC_UD6_vue_pas_dades/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pas de dades
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DWEC_UD6_vue_cicle_vida/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cicle de vida
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DWEC_UD6_vue_renderitzat_directives/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Directives de renderitzat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DWEC_UD6_vue_tutorials_neoguias/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pràctiques del tema
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1763,6 +1921,57 @@
   <a href="#estructura-tipica-dun-projecte" class="md-nav__link">
     <span class="md-ellipsis">
       Estructura típica d'un projecte
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#us-de-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ús de components
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-i-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      data i methods
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="data i methods">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data" class="md-nav__link">
+    <span class="md-ellipsis">
+      data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      methods
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#propietats-computades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Propietats computades
     </span>
   </a>
   
@@ -2161,6 +2370,275 @@
 </li>
 </ul>
 <p>Aquesta estructura és bastant estàndard, però podria variar lleugerament en funció de les necessitats del projecte i les preferències dels desenvolupadors. En projectes més grans o complexos, també podries tenir carpetes addicionals per a l'arquitectura, gestió d'estat, serveis, etc.</p>
+<h2 id="us-de-components">Ús de components</h2>
+<p>Observem un exemple en el qual creem un component que mostra una taula i l'integrem en la nostra aplicació principal en <code>VUE3</code>.</p>
+<p>Clar, aquí tens un exemple senzill d'un component amb una taula, i com es pot importar i utilitzar des del component principal en Vue 3.</p>
+<ol>
+<li><strong>Crea el teu component de taula:</strong></li>
+</ol>
+<div class="language-html highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">HTML</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-10-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-10-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-10-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-10-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-10-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-10-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-10-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-10-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-10-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-10-10">10</a></span>
+<span class="normal"><a href="#__codelineno-10-11">11</a></span>
+<span class="normal"><a href="#__codelineno-10-12">12</a></span>
+<span class="normal"><a href="#__codelineno-10-13">13</a></span>
+<span class="normal"><a href="#__codelineno-10-14">14</a></span>
+<span class="normal"><a href="#__codelineno-10-15">15</a></span>
+<span class="normal"><a href="#__codelineno-10-16">16</a></span>
+<span class="normal"><a href="#__codelineno-10-17">17</a></span>
+<span class="normal"><a href="#__codelineno-10-18">18</a></span>
+<span class="normal"><a href="#__codelineno-10-19">19</a></span>
+<span class="normal"><a href="#__codelineno-10-20">20</a></span>
+<span class="normal"><a href="#__codelineno-10-21">21</a></span>
+<span class="normal"><a href="#__codelineno-10-22">22</a></span>
+<span class="normal"><a href="#__codelineno-10-23">23</a></span>
+<span class="normal"><a href="#__codelineno-10-24">24</a></span>
+<span class="normal"><a href="#__codelineno-10-25">25</a></span>
+<span class="normal"><a href="#__codelineno-10-26">26</a></span>
+<span class="normal"><a href="#__codelineno-10-27">27</a></span>
+<span class="normal"><a href="#__codelineno-10-28">28</a></span>
+<span class="normal"><a href="#__codelineno-10-29">29</a></span>
+<span class="normal"><a href="#__codelineno-10-30">30</a></span>
+<span class="normal"><a href="#__codelineno-10-31">31</a></span>
+<span class="normal"><a href="#__codelineno-10-32">32</a></span>
+<span class="normal"><a href="#__codelineno-10-33">33</a></span>
+<span class="normal"><a href="#__codelineno-10-34">34</a></span>
+<span class="normal"><a href="#__codelineno-10-35">35</a></span>
+<span class="normal"><a href="#__codelineno-10-36">36</a></span>
+<span class="normal"><a href="#__codelineno-10-37">37</a></span>
+<span class="normal"><a href="#__codelineno-10-38">38</a></span>
+<span class="normal"><a href="#__codelineno-10-39">39</a></span>
+<span class="normal"><a href="#__codelineno-10-40">40</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1"></a><span class="cm">&lt;!-- TaulaComponent.vue --&gt;</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2"></a><span class="p">&lt;</span><span class="nt">template</span><span class="p">&gt;</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3"></a>  <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4"></a>    <span class="p">&lt;</span><span class="nt">h2</span><span class="p">&gt;</span>Taula de Persones<span class="p">&lt;/</span><span class="nt">h2</span><span class="p">&gt;</span>
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5"></a>    <span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
+</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6"></a>      <span class="p">&lt;</span><span class="nt">thead</span><span class="p">&gt;</span>
+</span><span id="__span-10-7"><a id="__codelineno-10-7" name="__codelineno-10-7"></a>        <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span><span id="__span-10-8"><a id="__codelineno-10-8" name="__codelineno-10-8"></a>          <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>ID<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+</span><span id="__span-10-9"><a id="__codelineno-10-9" name="__codelineno-10-9"></a>          <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Nom<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+</span><span id="__span-10-10"><a id="__codelineno-10-10" name="__codelineno-10-10"></a>          <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Edat<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+</span><span id="__span-10-11"><a id="__codelineno-10-11" name="__codelineno-10-11"></a>        <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span><span id="__span-10-12"><a id="__codelineno-10-12" name="__codelineno-10-12"></a>      <span class="p">&lt;/</span><span class="nt">thead</span><span class="p">&gt;</span>
+</span><span id="__span-10-13"><a id="__codelineno-10-13" name="__codelineno-10-13"></a>      <span class="p">&lt;</span><span class="nt">tbody</span><span class="p">&gt;</span>
+</span><span id="__span-10-14"><a id="__codelineno-10-14" name="__codelineno-10-14"></a>        <span class="p">&lt;</span><span class="nt">tr</span> <span class="na">v-for</span><span class="o">=</span><span class="s">&quot;persona in persones&quot;</span> <span class="na">:key</span><span class="o">=</span><span class="s">&quot;persona.id&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-10-15"><a id="__codelineno-10-15" name="__codelineno-10-15"></a>          <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>{{ persona.id }}<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span><span id="__span-10-16"><a id="__codelineno-10-16" name="__codelineno-10-16"></a>          <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>{{ persona.nom }}<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span><span id="__span-10-17"><a id="__codelineno-10-17" name="__codelineno-10-17"></a>          <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>{{ persona.edat }}<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span><span id="__span-10-18"><a id="__codelineno-10-18" name="__codelineno-10-18"></a>        <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span><span id="__span-10-19"><a id="__codelineno-10-19" name="__codelineno-10-19"></a>      <span class="p">&lt;/</span><span class="nt">tbody</span><span class="p">&gt;</span>
+</span><span id="__span-10-20"><a id="__codelineno-10-20" name="__codelineno-10-20"></a>    <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+</span><span id="__span-10-21"><a id="__codelineno-10-21" name="__codelineno-10-21"></a>  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span><span id="__span-10-22"><a id="__codelineno-10-22" name="__codelineno-10-22"></a><span class="p">&lt;/</span><span class="nt">template</span><span class="p">&gt;</span>
+</span><span id="__span-10-23"><a id="__codelineno-10-23" name="__codelineno-10-23"></a>
+</span><span id="__span-10-24"><a id="__codelineno-10-24" name="__codelineno-10-24"></a><span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-10-25"><a id="__codelineno-10-25" name="__codelineno-10-25"></a><span class="k">export</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-10-26"><a id="__codelineno-10-26" name="__codelineno-10-26"></a><span class="w">  </span><span class="nx">data</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-10-27"><a id="__codelineno-10-27" name="__codelineno-10-27"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-10-28"><a id="__codelineno-10-28" name="__codelineno-10-28"></a><span class="w">      </span><span class="nx">persones</span><span class="o">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-10-29"><a id="__codelineno-10-29" name="__codelineno-10-29"></a><span class="w">        </span><span class="p">{</span><span class="w"> </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="mf">1</span><span class="p">,</span><span class="w"> </span><span class="nx">nom</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;Joan&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">edat</span><span class="o">:</span><span class="w"> </span><span class="mf">25</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-10-30"><a id="__codelineno-10-30" name="__codelineno-10-30"></a><span class="w">        </span><span class="p">{</span><span class="w"> </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="mf">2</span><span class="p">,</span><span class="w"> </span><span class="nx">nom</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;Anna&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">edat</span><span class="o">:</span><span class="w"> </span><span class="mf">30</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-10-31"><a id="__codelineno-10-31" name="__codelineno-10-31"></a><span class="w">        </span><span class="p">{</span><span class="w"> </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="mf">3</span><span class="p">,</span><span class="w"> </span><span class="nx">nom</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;Pere&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">edat</span><span class="o">:</span><span class="w"> </span><span class="mf">28</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-10-32"><a id="__codelineno-10-32" name="__codelineno-10-32"></a><span class="w">      </span><span class="p">],</span>
+</span><span id="__span-10-33"><a id="__codelineno-10-33" name="__codelineno-10-33"></a><span class="w">    </span><span class="p">};</span>
+</span><span id="__span-10-34"><a id="__codelineno-10-34" name="__codelineno-10-34"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-10-35"><a id="__codelineno-10-35" name="__codelineno-10-35"></a><span class="p">};</span>
+</span><span id="__span-10-36"><a id="__codelineno-10-36" name="__codelineno-10-36"></a><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-10-37"><a id="__codelineno-10-37" name="__codelineno-10-37"></a>
+</span><span id="__span-10-38"><a id="__codelineno-10-38" name="__codelineno-10-38"></a><span class="p">&lt;</span><span class="nt">style</span> <span class="na">scoped</span><span class="p">&gt;</span>
+</span><span id="__span-10-39"><a id="__codelineno-10-39" name="__codelineno-10-39"></a><span class="c">/* Estils específics per a aquest component, si és necessari */</span>
+</span><span id="__span-10-40"><a id="__codelineno-10-40" name="__codelineno-10-40"></a><span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+</span></code></pre></div></td></tr></table></div>
+<ol>
+<li><strong>Importa i utilitza el component a la teva pàgina principal:</strong></li>
+</ol>
+<div class="language-html highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">HTML</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-11-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-11-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-11-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-11-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-11-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-11-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-11-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-11-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-11-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-11-10">10</a></span>
+<span class="normal"><a href="#__codelineno-11-11">11</a></span>
+<span class="normal"><a href="#__codelineno-11-12">12</a></span>
+<span class="normal"><a href="#__codelineno-11-13">13</a></span>
+<span class="normal"><a href="#__codelineno-11-14">14</a></span>
+<span class="normal"><a href="#__codelineno-11-15">15</a></span>
+<span class="normal"><a href="#__codelineno-11-16">16</a></span>
+<span class="normal"><a href="#__codelineno-11-17">17</a></span>
+<span class="normal"><a href="#__codelineno-11-18">18</a></span>
+<span class="normal"><a href="#__codelineno-11-19">19</a></span>
+<span class="normal"><a href="#__codelineno-11-20">20</a></span>
+<span class="normal"><a href="#__codelineno-11-21">21</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1"></a><span class="cm">&lt;!-- App.vue --&gt;</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2"></a><span class="p">&lt;</span><span class="nt">template</span><span class="p">&gt;</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3"></a>  <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;app&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4"></a>    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Aplicació principal<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5"></a>    <span class="p">&lt;</span><span class="nt">TaulaComponent</span> <span class="p">/&gt;</span>
+</span><span id="__span-11-6"><a id="__codelineno-11-6" name="__codelineno-11-6"></a>  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span><span id="__span-11-7"><a id="__codelineno-11-7" name="__codelineno-11-7"></a><span class="p">&lt;/</span><span class="nt">template</span><span class="p">&gt;</span>
+</span><span id="__span-11-8"><a id="__codelineno-11-8" name="__codelineno-11-8"></a>
+</span><span id="__span-11-9"><a id="__codelineno-11-9" name="__codelineno-11-9"></a><span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-11-10"><a id="__codelineno-11-10" name="__codelineno-11-10"></a><span class="k">import</span><span class="w"> </span><span class="nx">TaulaComponent</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;./components/TaulaComponent.vue&#39;</span><span class="p">;</span>
+</span><span id="__span-11-11"><a id="__codelineno-11-11" name="__codelineno-11-11"></a>
+</span><span id="__span-11-12"><a id="__codelineno-11-12" name="__codelineno-11-12"></a><span class="k">export</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-13"><a id="__codelineno-11-13" name="__codelineno-11-13"></a><span class="w">  </span><span class="nx">components</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-11-14"><a id="__codelineno-11-14" name="__codelineno-11-14"></a><span class="w">    </span><span class="nx">TaulaComponent</span><span class="p">,</span>
+</span><span id="__span-11-15"><a id="__codelineno-11-15" name="__codelineno-11-15"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-11-16"><a id="__codelineno-11-16" name="__codelineno-11-16"></a><span class="p">};</span>
+</span><span id="__span-11-17"><a id="__codelineno-11-17" name="__codelineno-11-17"></a><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-11-18"><a id="__codelineno-11-18" name="__codelineno-11-18"></a>
+</span><span id="__span-11-19"><a id="__codelineno-11-19" name="__codelineno-11-19"></a><span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+</span><span id="__span-11-20"><a id="__codelineno-11-20" name="__codelineno-11-20"></a><span class="c">/* Estils globals de l&#39;aplicació, si és necessari */</span>
+</span><span id="__span-11-21"><a id="__codelineno-11-21" name="__codelineno-11-21"></a><span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+</span></code></pre></div></td></tr></table></div>
+<p>En aquest exemple:</p>
+<ul>
+<li>
+<p><code>TaulaComponent</code> és importat a la pàgina principal utilitzant la instrucció <code>import</code>.</p>
+</li>
+<li>
+<p>S'afegeix el component <code>TaulaComponent</code> a la secció <code>components</code> de la pàgina principal. Això permet utilitzar-lo com un element a la plantilla (<code>&lt;TaulaComponent /&gt;</code>).</p>
+</li>
+<li>
+<p>Dins de la plantilla de <code>App.vue</code>, simplement es col·loca <code>&lt;TaulaComponent /&gt;</code> on es vol que aparegui la taula.</p>
+</li>
+</ul>
+<p>Aquesta és una manera senzilla d'estructurar els components a Vue i d'utilitzar-los a la teva aplicació principal. Pots repetir aquest procés per afegir i utilitzar altres components segons les teves necessitats.</p>
+<h2 id="data-i-methods">data i methods</h2>
+<p>En Vue 3, les propietats <code>data</code> i <code>methods</code> són dues seccions clau en la definició d'un component. Aquí tens una explicació de cada una:</p>
+<h3 id="data"><code>data</code></h3>
+<p>La propietat <code>data</code> és una funció que retorna un objecte. Aquest objecte conté les dades que es volen utilitzar dins del component. És important destacar que, a partir de Vue 3, <code>data</code> ha de ser una funció que retorna l'objecte de dades en lloc d'un objecte directament. Això és perquè cada instància del component té les seves pròpies dades reactives, i utilitzar una funció assegura que les dades siguin inicialitzades de manera única per a cada instància del component.</p>
+<p>Exemple:</p>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JavaScript</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-12-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-12-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-12-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-12-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-12-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-12-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-12-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-12-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-12-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-12-10">10</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1"></a><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2"></a><span class="k">export</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3"></a><span class="w">  </span><span class="nx">data</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-12-5"><a id="__codelineno-12-5" name="__codelineno-12-5"></a><span class="w">      </span><span class="nx">missatge</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;Hola des del component&#39;</span><span class="p">,</span>
+</span><span id="__span-12-6"><a id="__codelineno-12-6" name="__codelineno-12-6"></a><span class="w">      </span><span class="nx">contador</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span>
+</span><span id="__span-12-7"><a id="__codelineno-12-7" name="__codelineno-12-7"></a><span class="w">    </span><span class="p">};</span>
+</span><span id="__span-12-8"><a id="__codelineno-12-8" name="__codelineno-12-8"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-12-9"><a id="__codelineno-12-9" name="__codelineno-12-9"></a><span class="p">};</span>
+</span><span id="__span-12-10"><a id="__codelineno-12-10" name="__codelineno-12-10"></a><span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></code></pre></div></td></tr></table></div>
+<p>En aquest exemple, el component té dues propietats de dades (<code>missatge</code> i <code>contador</code>) que poden ser utilitzades a la plantilla i ser reactivament actualitzades.</p>
+<h3 id="methods"><code>methods</code></h3>
+<p>La propietat <code>methods</code> és un objecte que conté mètodes que es poden cridar des de la plantilla o dins d'altres mètodes del component. Aquests mètodes poden contenir lògica de negoci, manipulació de dades o qualsevol altra funcionalitat que necessitis.</p>
+<p>Exemple:</p>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JavaScript</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-13-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-13-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-13-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-13-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-13-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-13-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-13-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-13-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-13-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-13-10">10</a></span>
+<span class="normal"><a href="#__codelineno-13-11">11</a></span>
+<span class="normal"><a href="#__codelineno-13-12">12</a></span>
+<span class="normal"><a href="#__codelineno-13-13">13</a></span>
+<span class="normal"><a href="#__codelineno-13-14">14</a></span>
+<span class="normal"><a href="#__codelineno-13-15">15</a></span>
+<span class="normal"><a href="#__codelineno-13-16">16</a></span>
+<span class="normal"><a href="#__codelineno-13-17">17</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1"></a><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2"></a><span class="k">export</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3"></a><span class="w">  </span><span class="nx">data</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5"></a><span class="w">      </span><span class="nx">contador</span><span class="o">:</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span>
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6"></a><span class="w">    </span><span class="p">};</span>
+</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8"></a><span class="w">  </span><span class="nx">methods</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9"></a><span class="w">    </span><span class="nx">incrementar</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-13-10"><a id="__codelineno-13-10" name="__codelineno-13-10"></a><span class="w">      </span><span class="k">this</span><span class="p">.</span><span class="nx">contador</span><span class="o">++</span><span class="p">;</span>
+</span><span id="__span-13-11"><a id="__codelineno-13-11" name="__codelineno-13-11"></a><span class="w">    </span><span class="p">},</span>
+</span><span id="__span-13-12"><a id="__codelineno-13-12" name="__codelineno-13-12"></a><span class="w">    </span><span class="nx">resetejar</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-13-13"><a id="__codelineno-13-13" name="__codelineno-13-13"></a><span class="w">      </span><span class="k">this</span><span class="p">.</span><span class="nx">contador</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span>
+</span><span id="__span-13-14"><a id="__codelineno-13-14" name="__codelineno-13-14"></a><span class="w">    </span><span class="p">},</span>
+</span><span id="__span-13-15"><a id="__codelineno-13-15" name="__codelineno-13-15"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-13-16"><a id="__codelineno-13-16" name="__codelineno-13-16"></a><span class="p">};</span>
+</span><span id="__span-13-17"><a id="__codelineno-13-17" name="__codelineno-13-17"></a><span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></code></pre></div></td></tr></table></div>
+<p>En aquest exemple, el component té dos mètodes, <code>incrementar</code> i <code>resetejar</code>, que poden ser cridats des de la plantilla o dins d'altres mètodes del mateix component.</p>
+<p>Les funcionalitats que es poden aconseguir amb <code>data</code> i <code>methods</code> són fonamentals per al desenvolupament de components en Vue 3. Les dades permeten la gestió de l'estat del component, mentre que els mètodes ofereixen la capacitat d'executar lògica específica en resposta a esdeveniments o altres interaccions.</p>
+<h2 id="propietats-computades">Propietats computades</h2>
+<p>En Vue.js 3, les propietats computades (computed properties) són valors que es deriven dinàmicament a partir d'altres propietats de l'instància del component. A diferència de les dades (<code>data</code>) i els mètodes (<code>methods</code>), les propietats computades no són funcions que es cridin, sinó que es tracten com a propietats i es recalculen automàticament quan alguna de les seves dependències canvia.</p>
+<p>Per definir una propietat computada, utilitzes la secció <code>computed</code> dins del teu component. Aquí tens un exemple simple per il·lustrar com funcionen:</p>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JavaScript</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-14-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-14-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-14-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-14-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-14-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-14-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-14-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-14-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-14-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-14-10">10</a></span>
+<span class="normal"><a href="#__codelineno-14-11">11</a></span>
+<span class="normal"><a href="#__codelineno-14-12">12</a></span>
+<span class="normal"><a href="#__codelineno-14-13">13</a></span>
+<span class="normal"><a href="#__codelineno-14-14">14</a></span>
+<span class="normal"><a href="#__codelineno-14-15">15</a></span>
+<span class="normal"><a href="#__codelineno-14-16">16</a></span>
+<span class="normal"><a href="#__codelineno-14-17">17</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1"></a><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2"></a><span class="k">export</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3"></a><span class="w">  </span><span class="nx">data</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5"></a><span class="w">      </span><span class="nx">radi</span><span class="o">:</span><span class="w"> </span><span class="mf">5</span><span class="p">,</span>
+</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6"></a><span class="w">    </span><span class="p">};</span>
+</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-14-8"><a id="__codelineno-14-8" name="__codelineno-14-8"></a><span class="w">  </span><span class="nx">computed</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-14-9"><a id="__codelineno-14-9" name="__codelineno-14-9"></a><span class="w">    </span><span class="nx">area</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-14-10"><a id="__codelineno-14-10" name="__codelineno-14-10"></a><span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="nb">Math</span><span class="p">.</span><span class="nx">PI</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">radi</span><span class="w"> </span><span class="o">**</span><span class="w"> </span><span class="mf">2</span><span class="p">;</span>
+</span><span id="__span-14-11"><a id="__codelineno-14-11" name="__codelineno-14-11"></a><span class="w">    </span><span class="p">},</span>
+</span><span id="__span-14-12"><a id="__codelineno-14-12" name="__codelineno-14-12"></a><span class="w">    </span><span class="nx">circumferencia</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-14-13"><a id="__codelineno-14-13" name="__codelineno-14-13"></a><span class="w">      </span><span class="k">return</span><span class="w"> </span><span class="mf">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nb">Math</span><span class="p">.</span><span class="nx">PI</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="nx">radi</span><span class="p">;</span>
+</span><span id="__span-14-14"><a id="__codelineno-14-14" name="__codelineno-14-14"></a><span class="w">    </span><span class="p">},</span>
+</span><span id="__span-14-15"><a id="__codelineno-14-15" name="__codelineno-14-15"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-14-16"><a id="__codelineno-14-16" name="__codelineno-14-16"></a><span class="p">};</span>
+</span><span id="__span-14-17"><a id="__codelineno-14-17" name="__codelineno-14-17"></a><span class="o">&lt;</span><span class="err">/script&gt;</span>
+</span></code></pre></div></td></tr></table></div>
+<p>En aquest exemple:</p>
+<ul>
+<li>Hi ha una propietat <code>radi</code> dins de <code>data</code>, que és la dependència per a les propietats computades.</li>
+<li>Les propietats computades, <code>area</code> i <code>circumferencia</code>, són declarades dins de la secció <code>computed</code>. Aquestes propietats són calculades a partir del valor de <code>radi</code>.</li>
+<li>Quan el valor de <code>radi</code> canvia, les propietats computades es recalculen automàticament.</li>
+</ul>
+<p>Així, a la plantilla, pots fer servir les propietats computades de la mateixa manera que ho fas amb qualsevol altra propietat de dades:</p>
+<div class="language-html highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">HTML</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-15-1">1</a></span>
+<span class="normal"><a href="#__codelineno-15-2">2</a></span>
+<span class="normal"><a href="#__codelineno-15-3">3</a></span>
+<span class="normal"><a href="#__codelineno-15-4">4</a></span>
+<span class="normal"><a href="#__codelineno-15-5">5</a></span>
+<span class="normal"><a href="#__codelineno-15-6">6</a></span>
+<span class="normal"><a href="#__codelineno-15-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1"></a><span class="p">&lt;</span><span class="nt">template</span><span class="p">&gt;</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2"></a>  <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3"></a>    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Radi: {{ radi }}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4"></a>    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Àrea: {{ area }}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5"></a>    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Circumferència: {{ circumferencia }}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6"></a>  <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7"></a><span class="p">&lt;/</span><span class="nt">template</span><span class="p">&gt;</span>
+</span></code></pre></div></td></tr></table></div>
+<p>En aquest exemple, cada vegada que es modifica el valor de <code>radi</code>, les propietats computades <code>area</code> i <code>circumferencia</code> es recalcularan automàticament, i les actualitzacions es reflectiran a la plantilla.</p>
+<p>Les propietats computades són especialment útils per a càlculs derivats, filtrat i manipulació de dades en una manera que manté la lògica clara i eficient.</p>
 
 
 
