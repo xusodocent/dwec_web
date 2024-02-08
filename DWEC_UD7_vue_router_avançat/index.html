@@ -9,10 +9,6 @@
       
       
       
-        <link rel="prev" href="../DWEC_login_jwt/">
-      
-      
-        <link rel="next" href="../examen_2av/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +16,7 @@
     
     
       
-        <title>Enunciat - DESENVOLUPAMENT WEB EN ENTORN CLIENT - 2DAWsp - Xuso Ortí</title>
+        <title>DWEC UD7 vue router avançat - DESENVOLUPAMENT WEB EN ENTORN CLIENT - 2DAWsp - Xuso Ortí</title>
       
     
     
@@ -75,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#enunciat" class="md-skip">
+        <a href="#els-guards" class="md-skip">
           Salta el contingut
         </a>
       
@@ -108,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Enunciat
+              DWEC UD7 vue router avançat
             
           </span>
         </div>
@@ -440,13 +436,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../DWEC_projecte_vue/" class="md-tabs__link">
           
   
   Projecte 2av
@@ -2233,8 +2227,6 @@
       
   
   
-    
-  
   
   
     
@@ -2245,12 +2237,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
         
           
           <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
@@ -2264,7 +2256,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_13">
             <span class="md-nav__icon md-icon"></span>
             Projecte 2av
@@ -2275,28 +2267,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Enunciat
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../DWEC_projecte_vue/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2305,33 +2279,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Taula de continguts
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#enunciat" class="md-nav__link">
-    <span class="md-ellipsis">
-      Enunciat
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2437,9 +2384,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#enunciat" class="md-nav__link">
+  <a href="#els-guards" class="md-nav__link">
     <span class="md-ellipsis">
-      Enunciat
+      Els Guards
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lazy-loading" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lazy Loading
     </span>
   </a>
   
@@ -2460,61 +2416,77 @@
                   
 
 
-  <h1>Enunciat</h1>
+  <h1>DWEC UD7 vue router avançat</h1>
 
-<h2 id="enunciat">Enunciat</h2>
-<p>El projecte consistirà en realitzar una aplicació RESTful en VUE3 que utilitze els serveis que proporcione un servidor.</p>
-<p>Per al servidor utilitzarem una FAKE API en <code>json-server</code>. </p>
-<div class="admonition danger">
-<p class="admonition-title">OBLIGATORI <code>json-server</code></p>
-<p>Com que en aquest mòdul només s'avaluarà la part de client, necessitem alçar de forma àgil APIs per a desenvolupament. En el mòdul de <code>Desenvolupament Web en Entorn Servidor</code> serà on estudiareu com implementar la part de servidor de forma més professional. Per a facilitar la correcció serà <strong>OBLIGATORI UTILITZAR json-server</strong>.</p>
-</div>
-<p>La temàtica de l'aplicació serà lliure, jo vos he passat una d'exemple de ports de muntanya però podeu triar qualsevol tema que vos agrade.</p>
-<p>La funcionalitat bàsica ha de ser un CRUD complet... es a dir:</p>
-<details class="info">
-<summary>CRUD</summary>
-<p>CRUD és un acrònim que fa referència a les operacions bàsiques realitzades en bases de dades. Cada lletra en CRUD representa una d'aquestes operacions:</p>
-<p><strong>Crear (Create):</strong> Implica la creació de nous registres o entrades a la base de dades.</p>
-<p><strong>Llegir (Read):</strong> Implica la lectura o recuperació d'informació existent a la base de dades. Això es refereix a la consulta de dades emmagatzemades.</p>
-<p><strong>Actualitzar (Update):</strong> Implica la modificació de dades existents a la base de dades. Es fa servir per actualitzar la informació dels registres existents.</p>
-<p><strong>Eliminar (Delete):</strong> Implica l'eliminació de registres o dades de la base de dades.</p>
-</details>
-<p>Per tant heu de tindre almenys una crida de cada tipus:</p>
-<details class="info">
-<summary>Crides</summary>
-<p>Suposant que la aplicació va sobre tasques...</p>
-<ul>
-<li>GET /tasques: Obtenir totes les tasques.</li>
-<li>GET /tasques/:id: Obtenir una tasca per la seva ID.</li>
-<li>POST /tasques: Crear una nova tasca.</li>
-<li>PUT /tasques/:id: Actualitzar una tasca per la seva ID.</li>
-<li>DELETE /tasques/:id: Eliminar una tasca per la seva ID.</li>
-</ul>
-</details>
-<p>L'aplicació principal haurà de tindre almenys un component i un router-view, el component pot ser un menú...</p>
-<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Text Only</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<h2 id="els-guards">Els Guards</h2>
+<p>En Vue.js, un "guard" es refereix a les funcions utilitzades en les rutes d'una aplicació Vue que fa servir l'enrutador (<code>vue-router</code>). Els guards són funcions que s'executen en cert moments durant la navegació entre rutes i s'utilitzen per controlar o protegir l'accés a certes rutes segons condicions específiques.</p>
+<p>Els tres tipus principals de guards en <code>vue-router</code> són:</p>
+<p><strong>Before Each Guard:</strong>
+   - <code>beforeEach</code>: S'executa abans d'entrar en una nova ruta. Pots utilitzar aquest guard per realitzar verificacions o tasques abans de permetre que l'usuari navegui cap a la següent ruta.</p>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JavaScript</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
 <span class="normal"><a href="#__codelineno-0-2">2</a></span>
 <span class="normal"><a href="#__codelineno-0-3">3</a></span>
-<span class="normal"><a href="#__codelineno-0-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a>&lt;template&gt;
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a>  &lt;Menu /&gt;
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a>  &lt;router-view/&gt;
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a>&lt;/template&gt;
+<span class="normal"><a href="#__codelineno-0-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">router</span><span class="p">.</span><span class="nx">beforeEach</span><span class="p">((</span><span class="nx">to</span><span class="p">,</span><span class="w"> </span><span class="kr">from</span><span class="p">,</span><span class="w"> </span><span class="nx">next</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="w">  </span><span class="c1">// Alguna lògica o verificació abans de navegar a la nova ruta</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">  </span><span class="nx">next</span><span class="p">();</span><span class="w"> </span><span class="c1">// Crida a next() per permetre la navegació, o next(false) per impedir-la</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="p">});</span>
 </span></code></pre></div></td></tr></table></div>
-<p>Algunes de les funcionalitats obligatòries que ha d'incloure són...</p>
-<ul>
-<li>Pas de dades entre pares/fills (events, propietats, etc).</li>
-<li>Validació de formularis.</li>
-<li>Un component ha d'incloure a altre component.</li>
-<li>Navegació per les vistes utilitzant $router.push() o <code>&lt;router-link&gt;</code></li>
-</ul>
-<div class="admonition warning">
-<p class="admonition-title">Entrega</p>
-<ul>
-<li>Caldrà entregar un vídeo breu explicant les parts més importants del projecte. </li>
-<li>Pujar el codi a algun repositori o entregar un <code>*.zip</code> amb el codi (sense la carpeta node_modules).</li>
-<li>Entregar l'arxiu <code>*.json</code> utlitzat per llençar la fake api.</li>
-</ul>
-</div>
+<p><strong>Before Resolve Guard:</strong>
+   - <code>beforeResolve</code>: Similar a <code>beforeEach</code>, però s'executa després que totes les promeses relacionades amb la navegació s'hagin resolt.</p>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JavaScript</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span>
+<span class="normal"><a href="#__codelineno-1-3">3</a></span>
+<span class="normal"><a href="#__codelineno-1-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="nx">router</span><span class="p">.</span><span class="nx">beforeResolve</span><span class="p">((</span><span class="nx">to</span><span class="p">,</span><span class="w"> </span><span class="kr">from</span><span class="p">,</span><span class="w"> </span><span class="nx">next</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="w">  </span><span class="c1">// Lògica després de resoldre promeses abans de navegar a la nova ruta</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="w">  </span><span class="nx">next</span><span class="p">();</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="p">});</span>
+</span></code></pre></div></td></tr></table></div>
+<p><strong>After Each Guard:</strong>
+   - <code>afterEach</code>: S'executa després que el component de la ruta s'hagi renderitzat. Pots utilitzar aquest guard per realitzar tasques després que s'hagi completat la navegació.</p>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JavaScript</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
+<span class="normal"><a href="#__codelineno-2-2">2</a></span>
+<span class="normal"><a href="#__codelineno-2-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="nx">router</span><span class="p">.</span><span class="nx">afterEach</span><span class="p">((</span><span class="nx">to</span><span class="p">,</span><span class="w"> </span><span class="kr">from</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="w">  </span><span class="c1">// Lògica després que la nova ruta s&#39;hagi renderitzat</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="p">});</span>
+</span></code></pre></div></td></tr></table></div>
+<p>Aquests guards permeten controlar el flux de l'aplicació abans, durant i després de la navegació, i són útils per implementar lògica d'autorització, redirecció o qualsevol tasca que necessitis realitzar en el procés de canvi de ruta.</p>
+<h2 id="lazy-loading">Lazy Loading</h2>
+<p>En Vue.js 3, el "lazy loading" o càrrega diferida del router és una característica que permet carregar els components de les rutes només quan són necessaris, en comptes de carregar-los tots al principi. Això pot millorar significativament el rendiment de la teva aplicació, ja que només carregues el codi necessari per a la vista actual.</p>
+<p>En el context de Vue Router 4 (les versions més recents en la meva data de coneixement fins a gener de 2022), pots aconseguir la càrrega diferida mitjançant la utilització de la funció <code>component</code> dins de la definició de la ruta. Aquesta funció rep un <code>import</code> dinàmic del mòdul del component que vols carregar, i la càrrega diferida es realitza automàticament pel sistema.</p>
+<p>Aquí tens un exemple de com podria ser implementat:</p>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JavaScript</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-3-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-3-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-3-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-3-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-3-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-3-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-3-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-3-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-3-10">10</a></span>
+<span class="normal"><a href="#__codelineno-3-11">11</a></span>
+<span class="normal"><a href="#__codelineno-3-12">12</a></span>
+<span class="normal"><a href="#__codelineno-3-13">13</a></span>
+<span class="normal"><a href="#__codelineno-3-14">14</a></span>
+<span class="normal"><a href="#__codelineno-3-15">15</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">routes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="w">  </span><span class="p">{</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="w">    </span><span class="nx">path</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;/home&#39;</span><span class="p">,</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;Home&#39;</span><span class="p">,</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="w">    </span><span class="nx">component</span><span class="o">:</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="k">import</span><span class="p">(</span><span class="cm">/* webpackChunkName: &quot;home&quot; */</span><span class="w"> </span><span class="s1">&#39;@/views/Home&#39;</span><span class="p">),</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="w">    </span><span class="c1">// ^ Càrrega diferida del component Home</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="w">  </span><span class="p">{</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9"></a><span class="w">    </span><span class="nx">path</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;/about&#39;</span><span class="p">,</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10"></a><span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;About&#39;</span><span class="p">,</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11"></a><span class="w">    </span><span class="nx">component</span><span class="o">:</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="k">import</span><span class="p">(</span><span class="cm">/* webpackChunkName: &quot;about&quot; */</span><span class="w"> </span><span class="s1">&#39;@/views/About&#39;</span><span class="p">),</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12"></a><span class="w">    </span><span class="c1">// ^ Càrrega diferida del component About</span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13"></a><span class="w">  </span><span class="p">},</span>
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14"></a><span class="w">  </span><span class="c1">// ... altres rutes</span>
+</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15"></a><span class="p">];</span>
+</span></code></pre></div></td></tr></table></div>
+<p>En aquest exemple, <code>import(/* webpackChunkName: "home" */ '@/views/Home')</code> utilitza <code>import()</code> per carregar dinàmicament el mòdul del component Home. Aquesta sintaxi és compatible amb Webpack i altres eines de construcció que permeten la càrrega diferida.</p>
+<p>El comentari <code>/* webpackChunkName: "home" */</code> és una anotació que et permet assignar un nom específic al "chunk" generat pel Webpack. Això pot ser útil per al control de la producció.</p>
+<p>En resum, la càrrega diferida del router en Vue.js 3 permet millorar el rendiment de l'aplicació carregant els components de les rutes només quan són necessaris, reduint així el temps de càrrega inicial.</p>
 
 
 
@@ -2531,44 +2503,6 @@
       
         <footer class="md-footer">
   
-    
-      
-      <nav class="md-footer__inner md-grid" aria-label="Peu de pàgina" >
-        
-          
-          <a href="../DWEC_login_jwt/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Exemple login JWT">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Anterior
-              </span>
-              <div class="md-ellipsis">
-                Exemple login JWT
-              </div>
-            </div>
-          </a>
-        
-        
-          
-          <a href="../examen_2av/" class="md-footer__link md-footer__link--next" aria-label="Següent: Enunciat">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Següent
-              </span>
-              <div class="md-ellipsis">
-                Enunciat
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
     
   
   <div class="md-footer-meta md-typeset">
